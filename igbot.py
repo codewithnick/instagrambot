@@ -10,7 +10,7 @@ dmlimit=3
 #connectiong to mongo client
 import pymongo
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://dbuser:JZf111qVS2zqKVfs@addmie-ybdhy.mongodb.net/<dbname>?retryWrites=true&w=majority")
+client = MongoClient("")
 db = client["bot"]
 collection=db["user"]
 hashtag=db["hashtag"]
