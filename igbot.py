@@ -4,13 +4,13 @@ import traceback
 import random
 
 
-followlimit=10
-commentlimit=10
+followlimit=7
+commentlimit=8
 dmlimit=3
 #connectiong to mongo client
 import pymongo
 from pymongo import MongoClient
-client = MongoClient("")
+client = MongoClient("mongodb+srv://dbuser:JZf111qVS2zqKVfs@addmie-ybdhy.mongodb.net/<dbname>?retryWrites=true&w=majority")
 db = client["bot"]
 collection=db["user"]
 hashtag=db["hashtag"]
@@ -21,50 +21,57 @@ users=collection.find({})
 #####################################################################################################################################
 #####################################################################################################################################
 ####################################################################################################################################
-
-
+user=users[1]
 # connecting selenium window 
 from selenium import webdriver
-
+a=user["username"]
+b=user["password"]
+#create driver
+driver =webdriver.Chrome('chromedriver')
+driver.get('https://www.instagram.com/')
+#login now
+while True:
+    try:
+        #9 seconds to load page
+        time.sleep(random.randint(5,9))
+        username = driver.find_element_by_xpath("//input[@aria-label='{}']".format('Phone number, username, or email'))
+                                                #/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[1]/div/label/input
+                                                #/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input
+        username.send_keys(a)
+        password = driver.find_element_by_xpath("//input[@aria-label='{}']".format('Password'))
+                                                #/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[2]/div/label/input
+                                                #/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[3]/div/label/input
+        password.send_keys(b)
+        sign_in_button = driver.find_element_by_xpath("//*[text()='{}']".format('Log In'))
+        sign_in_button.click()            
+    except:
+        traceback.print_exc()
+        print('some error occurred trying again')
+        continue
+    else:
+        print('logged in sucessfully')
+        #wait for page load
+        time.sleep(random.randint(5,9))
+        break
+    finally:
+        time.sleep(1)
 
 
 
 
 #####################################################  loop for all users ####################################################
-for user in users:
+while True:
+    #now wait 45 minutes before starting another process 40-50 minutes
+    print('process ended now wasting time')
+    time.sleep(random.randint( 50*60 , 60*60 ))
     #reset vars
-    followlimit=10
-    commentlimit=10
+    followlimit=7
+    commentlimit=8
     dmlimit=3
     links=[]
     user_name_array=[]
-    a=user["username"]
-    b=user["password"]
-    #create driver
-    driver =webdriver.Chrome('chromedriver')
-    driver.get('https://www.instagram.com/')
-    #login now
-    while True:
-        try:
-            #9 seconds to load page
-            time.sleep(random.randint(5,9))
-            username = driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input')
-            username.send_keys(a)
-            password = driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[3]/div/label/input')
-            password.send_keys(b)
-            sign_in_button = driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]/button')
-            sign_in_button.click()            
-        except:
-            traceback.print_exc()
-            print('some error occurred trying again')
-            continue
-        else:
-            print('logged in sucessfully')
-            #wait for page load
-            time.sleep(random.randint(5,9))
-            break
-        finally:
-            time.sleep(1)
+    
+    
             
     #comment 10 posts
     while commentlimit>0:
@@ -79,6 +86,7 @@ for user in users:
             postlink = driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[1]/div/div/div[1]/div[1]/a').get_attribute('href')
             #if already commented
             if postlink in links:
+                print('already commented on this post continuing')
                 continue
             commentarray.remove(linkvar)
             links.append(linkvar)        
@@ -94,43 +102,45 @@ for user in users:
                                                          #/html/body/div[1]/section/main/div/div[1]/article/div[2]/section[3]/div/form/textarea
             commenttext=user["comments"]
             commentbutton.send_keys(random.choice(commenttext))
-            postbutton = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div[1]/article/div[3]/section[3]/div[1]/form/button[2]')
+            time.sleep(random.randint(5,9))
+            postbutton = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div[1]/article/div[3]/section[3]/div[1]/form/button')
                                                       #/html/body/div[1]/section/main/div/div[1]/article/div[2]/section[3]/div[1]/form/button
+                                                      #/html/body/div[1]/section/main/div/div[1]/article/div[3]/section[3]/div/form/button[2]
+                                               
             postbutton.click()
             #comment posted
             commentlimit-=1
             time.sleep(random.randint(5,9))
             print('commented on '+postlink)
-            print(commentlimit+'left to be commented')
+            print(commentlimit,' left to be commented')
         except:
             traceback.print_exc()
             print('could not comment trying next post')
     print('daily commenting limit reached')
     #follow 10 people
-    while followlimit>0:
-        try:
-            #choose hashtag
-            followlink=random.choice(followedarray)
-            followedarray.remove(followlink)
-            driver.get(followlink)
-            time.sleep(random.randint(5,9))
-            #getpost
-            post = driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a').get_attribute('href')        
-            driver.get(post)
-            #followbutton
-            followbutton = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div[1]/article/header/div[2]/div[1]/div[2]/button')                                
-            followbutton.click()                                        
-            time.sleep(1)
-        except:
-            traceback.print_exc()
-            print('could not follow trying next')
-            pass
-        followlimit-=1
+##    while followlimit>0:
+##        try:
+##            #choose hashtag
+##            followlink=random.choice(followedarray)
+##            followedarray.remove(followlink)
+##            driver.get(followlink)
+##            time.sleep(random.randint(5,9))
+##            #getpost
+##            post = driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a').get_attribute('href')        
+##            driver.get(post)
+##            #followbutton
+##            followbutton = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div[1]/article/header/div[2]/div[1]/div[2]/button')                                
+##            followbutton.click()                                        
+##            time.sleep(1)
+##        except:
+##            traceback.print_exc()
+##            print('could not follow trying next')
+##            pass
+##        followlimit-=1
     #find 3 people
     while dmlimit>0:
         try:
             followlink=random.choice(followedarray)
-            followedarray.remove(followlink)
             driver.get(followlink)
             time.sleep(random.randint(5,9))
             #getpost
@@ -148,17 +158,17 @@ for user in users:
         dmlimit-=1
     
     #now dm them
-    while True:
-        driver.get('https://www.instagram.com/direct/new/')
-        time.sleep(random.randint(5,9))
-        try:
-            notnowbutton = driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[3]/button[2]')
-            notnowbutton.click()
-            break
-        except:
-            traceback.print_exc()
-            print('trying again not now is disturbing')
-        time.sleep(3)
+##    while True:
+##        driver.get('https://www.instagram.com/direct/new/')
+##        time.sleep(random.randint(5,9))
+##        try:
+##            notnowbutton = driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[3]/button[2]')
+##            notnowbutton.click()
+##            break
+##        except:
+##            traceback.print_exc()
+##            print('trying again not now is disturbing')
+##        time.sleep(3)
     for user_name in user_name_array:
         driver.get('https://www.instagram.com/direct/new/')
         time.sleep(random.randint(5,9))
@@ -176,18 +186,16 @@ for user in users:
             nextbutton.click()
             time.sleep(random.randint(5,9))
             #typing message
-            message=random.choice(user["dm"])
+            message=user["dm"]
             time.sleep(random.randint(5,9))
             newmessage = driver.find_element_by_xpath('/html/body/div[1]/section/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/textarea')                                        
             newmessage.send_keys(message)
             time.sleep(10)
             newmessage.send_keys('\n')
-            pass
+            print('sent message to ',user_name)
         except:
             traceback.print_exc()
             print('could not message trying next')
             pass        
-    driver.quit()
-    #now wait 45 minutes before starting another process 40-50 minutes
-    print('process ended now wasting time')
-    time.sleep(random.randint( 40*60 , 50*60 ))
+    
+    

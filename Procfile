@@ -1,1 +1,2 @@
-release: python igbot.py
+worker: python igbot.py
+temp: python uigbot.py
