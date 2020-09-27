@@ -33,8 +33,16 @@ you may have probably heard about services which guarantee you a number of follo
 -liking more than 2000 posts per day
 -having more than 60 interactions per hour
 -using abusive languages in your post and story
-
+-logging in too many times
 our bot takes care of all these limits ,imagine how tedious it will be to wait for every 30 seconds to interact with someone to avoid bans and still drive traffic to your account .with our bot you can sit back and see as the bot takes care of all this limits and drives huge traffic to your account everyday
+
+# which plan should I use ? OR for how long should I use the bot?
+
+## one day plan
+
+if you want to try how this bot works this will be the best plan for you,although you should take a break of atleast a week before using this plan again
+
+### impressions
 
 # disclamer
 
