@@ -12,7 +12,10 @@ the bot will log in to your account everyday and will work for 18 hours nonstop.
 the bot will first find potential users ,these users will be the users which have been interacting with similar pages to your niche so they have a higher chance of following you.
 then the bot runs algorithms to decide what kind of interaction will be best for the user .interaction may include (liking the users post, commenting on their post and messaging them directly to follow you). this process runs every hour thus driving a huge amount of traffic to your account.
 
+## how many impressions do I get per day after using this bot?
 
+the bot will on average message 2 people per hour, like 10 posts of 7 users per hour, comment on 3 posts per hour 
+(these variables can be changed if you want, but these limits are applied to stop your account from getting banned)
 
 # disclamer
 
