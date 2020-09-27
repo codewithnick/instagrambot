@@ -39,10 +39,27 @@ our bot takes care of all these limits ,imagine how tedious it will be to wait f
 # which plan should I use ? OR for how long should I use the bot?
 
 ## one day plan
+if you want to try how this bot works this will be the best plan for you,although you should take a break of atleast 4 days before using this plan again
+### impressions -> ( 10 likes + 7 comments + 3 messages )* 18 hours == 360 impressions/ day == ATLEAST 360 users redirected to your page
+### cost(whichever is cheaper) -> 1 $ OR 60 Rs.
 
-if you want to try how this bot works this will be the best plan for you,although you should take a break of atleast a week before using this plan again
+## three days plan
+if you have already tried the bot and want to get efficient reach this will be the best plan for you,although you should take a break of atleast a week before using this plan again
+### impressions -> ( 9 likes + 4 comments + 3 messages )* 18 hours == 288 impressions/day == ATLEAST 864 users redirected to your page
+### cost(whichever is cheaper) -> 3 $ OR 200 Rs.
 
-### impressions
+## twenty days plan
+if you trust our bot completely this is the best plan for you,although you should take a break of atleast 10 days using this plan again
+### impressions -> ( 7 likes + 2 comments + 2 messages )* 18 hours == 162 impressions/day == == ATLEAST 3240 users redirected to your page
+### cost(whichever is cheaper) -> 15 $ OR 1000 Rs.
+
+## twenty days custom plan
+if you trust our bot completely and you have been a active user and if you feel that the limits given below are too less or too much according to you account you can change these limits with a customised plan , the number of accounts interacted per hour by the user will be selected by you,you can choose to run this plan from anywhere between 1 to 20 days
+### impressions -> ( X likes + X comments + X messages )* 18 hours == X impressions/day == == ATLEAST X users redirected to your page
+### cost(whichever is cheaper) -> ( the cost will be decided according to your plan )
+
+
+
 
 # disclamer
 
