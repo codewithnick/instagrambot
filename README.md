@@ -22,18 +22,18 @@ that will be (2+7+3)* 18 hours -> i.e. 216 impressions atleast per day on averag
 
 you may have probably heard about services which guarantee you a number of followers. never opt for them ,they are sure to get you banned. our bot on the other hand uses marketing techniques by humans and automates them  on targeted potential followers to increase your reach
 ## main reasons for getting banned on instagram may include
-####-liking too many posts in a small interval of time
-####-commenting the same things too many times frequently
-####-messaging too many new users frequently
-####-spending and surfing on instagram and viewing many profiles
-####-following/unfollowing too frequently
-####-getting too many temporary bans
-####-messaging a lot of new people per hour
-####-creating too many groups
-####-liking more than 2000 posts per day
-####-having more than 60 interactions per hour
-####-using abusive languages in your post and story
-####-logging in too many times
+#### -liking too many posts in a small interval of time
+#### -commenting the same things too many times frequently
+#### -messaging too many new users frequently
+#### -spending and surfing on instagram and viewing many profiles
+#### -following/unfollowing too frequently
+#### -getting too many temporary bans
+#### -messaging a lot of new people per hour
+#### -creating too many groups
+#### -liking more than 2000 posts per day
+#### -having more than 60 interactions per hour
+#### -using abusive languages in your post and story
+#### -logging in too many times
 our bot takes care of all these limits ,imagine how tedious it will be to wait for every 30 seconds to interact with someone to avoid bans and still drive traffic to your account .with our bot you can sit back and see as the bot takes care of all this limits and drives huge traffic to your account everyday
 
 # which plan should I use ? OR for how long should I use the bot?
