@@ -1,3 +1,4 @@
+[bot](bot.png)
 # instagrambot
 spammer bot for instagram
 
