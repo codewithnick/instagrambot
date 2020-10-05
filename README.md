@@ -68,7 +68,9 @@ these rules are made to prevent your account from banning, as this bot will make
 do not post more than 2 posts everyday, do not message more than 1 new person per day , do not reply to comments as long as bot is working ,do not spend more than an hour on the same account. DO not use the bot if you have less than 9 posts or if your account is less than a month old.
 any voilation of these rules while the bot is working, will result in a temporary 2 day ban of commenting/ liking /posting of your account.
 
-
+#how to buy
+just enter the form given below and our team will contact you
+https://forms.gle/sB4HXVm6LeHkoUbc6
 
 
 # disclamer
