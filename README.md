@@ -9,7 +9,7 @@ the bot on github may or may not work according to the current version of instag
 
 # How does the bot work?
 
-the bot uses sophisticated and complicated algorithms to find geniune user on instagram and drive them to a specified account or page which increases the reach and impressions of your page overall. hernce indirectly increasing your following base.
+the bot uses sophisticated and complicated algorithms to find geniune user on instagram and drive them to a specified account or page which increases the reach and impressions of your page overall. hence indirectly increasing your following base.
 in other words the bot works to advertise your account to potential followers
 the bot will log in to your account everyday and will work for 18 hours nonstop.
 the bot will first find potential users ,these users will be the users which have been interacting with similar pages to your niche so they have a higher chance of following you.
@@ -47,12 +47,12 @@ yes , the bot uses mongodb to store and retrive information about passwords and 
 # Which plan should I use ? OR for How long should I use the bot?
 
 ## one day plan
-if you want to try how this bot works this will be the best plan for you,although you should take a break of atleast 4 days before using this plan again
+if you want to try how this bot works this will be the best plan for you,although you should take a break of atleast 2 days before using this plan again
 #### impressions -> ( 10 likes + 7 comments + 3 messages )* 17 hours == 340 impressions/ day == ATLEAST 340 users redirected to your page
 #### cost(whichever is cheaper) -> 1 $ OR 60 Rs.
 
 ## three days plan
-if you have already tried the bot and want to get efficient reach this will be the best plan for you,although you should take a break of atleast a week before using this plan again
+if you have already tried the bot and want to get efficient reach this will be the best plan for you,although you should take a break of atleast 3 days before using this plan again
 #### impressions -> ( 9 likes + 4 comments + 3 messages )* 17 hours == 272 impressions/day == ATLEAST 816 users redirected to your page
 #### cost(whichever is cheaper) -> 3 $ OR 200 Rs.
 
