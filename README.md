@@ -1,5 +1,3 @@
-
-
 >![bot](bot.png)
 
 
@@ -9,7 +7,7 @@ spammer bot for instagram
 # Note:
 the bot on github may or may not work according to the current version of instagram .newer versions of the bot are not yet open sourced
 
-# how does the bot work?
+# How does the bot work?
 
 the bot uses sophisticated and complicated algorithms to find geniune user on instagram and drive them to a specified account or page which increases the reach and impressions of your page overall. hernce indirectly increasing your following base.
 in other words the bot works to advertise your account to potential followers
@@ -26,7 +24,7 @@ that will be (2+7+3)* 18 hours -> i.e. 216 impressions atleast per day on averag
 # Is using bots illegal and can get you banned on instagram?
 
 you may have probably heard about services which guarantee you a number of followers. never opt for them ,they are sure to get you banned. our bot on the other hand uses marketing techniques by humans and automates them  on targeted potential followers to increase your reach
-** main reasons for getting banned on instagram may include **
+## *main reasons for getting banned on instagram may include*
 #### -liking too many posts in a small interval of time
 #### -commenting the same things too many times frequently
 #### -messaging too many new users frequently
@@ -42,7 +40,9 @@ you may have probably heard about services which guarantee you a number of follo
 our bot takes care of all these limits ,imagine how tedious it will be to wait for every 30 seconds to interact with someone to avoid bans and still drive traffic to your account .with our bot you can sit back and see as the bot takes care of all this limits and drives huge traffic to your account everyday
 
 # Is my password safe with the bot?
+
 yes , the bot uses mongodb to store and retrive information about passwords and usera accounts ,this database is a remote database hence no person has a direct physical access to it ,your password is safe and secure with us and stored in encrypetd format
+*do not provide passwords to anyone unless asked by the team to do so *
 
 # Which plan should I use ? OR for How long should I use the bot?
 
@@ -67,11 +67,14 @@ if you trust our bot completely and you have been a active user and if you feel 
 #### cost(whichever is cheaper) -> ( the cost will be decided according to your plan )
 
 # Rules while using the bot 
+
 these rules are made to prevent your account from banning, as this bot will make your account more active on ig than it usually should be.
 do not post more than 2 posts everyday, do not message more than 1 new person per day , do not reply to comments as long as bot is working ,do not spend more than an hour on the same account. DO not use the bot if you have less than 9 posts or if your account is less than a month old.
 any voilation of these rules while the bot is working, will result in a temporary 2 day ban of commenting/ liking /posting of your account.
+This bot works best for any account between 100 to 15K followers.
 
 # How to buy?
+
 just enter the form given below and our team will contact you
 https://forms.gle/sB4HXVm6LeHkoUbc6
 
