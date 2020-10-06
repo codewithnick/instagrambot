@@ -45,7 +45,7 @@ yes , the bot uses mongodb to store and retrive information about passwords and 
 *do not provide passwords to anyone unless asked by the team to do so *
 
 # Which plan should I use ? OR for How long should I use the bot?
-
+(cost and impressions will be updated from time to time)
 ## one day plan
 if you want to try how this bot works this will be the best plan for you,although you should take a break of atleast 2 days before using this plan again
 #### impressions -> ( 10 likes + 7 comments + 3 messages )* 17 hours == 340 impressions/ day == ATLEAST 340 users redirected to your page
