@@ -42,7 +42,7 @@ our bot takes care of all these limits ,imagine how tedious it will be to wait f
 # Is my password safe with the bot?
 
 yes , the bot uses mongodb to store and retrive information about passwords and usera accounts ,this database is a remote database hence no person has a direct physical access to it ,your password is safe and secure with us and stored in encrypetd format
-*do not provide passwords to anyone unless asked by the team to do so *
+
 
 # Which plan should I use ? OR for How long should I use the bot?
 (cost and impressions will be updated from time to time)
