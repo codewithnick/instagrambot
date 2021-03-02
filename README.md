@@ -75,7 +75,7 @@ This bot works best for any account between 100 to 15K followers.
 
 # How to buy?
 
-just enter the form given below and our team will contact you
+just enter the form given below and send me a mail on nikhilsingh526452@gmail.com
 https://forms.gle/sB4HXVm6LeHkoUbc6
 
 
