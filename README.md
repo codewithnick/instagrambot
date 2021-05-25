@@ -75,10 +75,8 @@ This bot works best for any account between 100 to 15K followers.
 
 # How to buy?
 
-just enter the form given below and send me a mail on nikhilsingh526452@gmail.com
-https://forms.gle/sB4HXVm6LeHkoUbc6
-
-
+https://imojo.in/6SD4A
+(newest versions are not for sale yet)
 # Disclamer
 
 Usage of this tool for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
