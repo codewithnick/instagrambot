@@ -74,9 +74,10 @@ any voilation of these rules while the bot is working, will result in a temporar
 This bot works best for any account between 100 to 15K followers.
 
 # How to buy?
+https://www.peopleperhour.com/hourlie/make-a-instagram-growth-bot-in-python/745926
+to get a £30 credit sign up using
+https://www.peopleperhour.com/site/register?rfrd=3587630.5
 
-https://imojo.in/6SD4A
-(newest versions are not for sale yet)
 # Disclamer
 
 Usage of this tool for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
